@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đặt hàng</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(233, 232, 232);
+        }
+        h1{
+            font-size: 30px;
+            margin: 15px;
+        }
+        input {
+            block-size: 25px;
+            width: 220px;
+        }
+        .d1 {
+            background-color:rgb(233, 232, 232);
+            width: 250px;
+            float: left;
+            margin: 15px;
+            font-family: "Montserrat", sans-serif;
+        }
+        .paragraph {
+            background-color:rgb(233, 232, 232);
+            width: 460px;
+            margin: 15px;
+            font-family: "Montserrat", sans-serif;
+        }
+        .optional{
+            color: rgb(149, 142, 142);
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+        }
+        button{
+            background-color: rgb(50, 152, 199);
+            border: 0px;
+            color: rgb(255, 255, 255);
+            width: 180px;
+            height: 35px;
+        }
+        label{
+            font-weight: bold;
+        }
+        select{
+            block-size: 32px;
+            width: 229px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Try a free sample</h1>
+    <div class="paragraph">Sign up to get a coupon you can redeem at your nearest Dancing Goat cafe for a sample of the Colombia Carlos Imbachi coffee. We'll also make sure you don't miss out on news introducing the new coffees that we add to our store regularly</div>
+    <div class="d1">
+        <label for="First name">First name</label> <br>
+        <input type="text" name="First name" id="First name" placeholder="John">
+            <br> <br>
+        <label for="Email address">Email address</label> <br>
+        <input type="text" name="Email address" id="Email address" placeholder="john@example.com">
+            <br> <br>
+        <label for="City">City</label> <br>
+        <input type="text" name="City" id="City" placeholder="London">
+            <br><br>
+        <label for="ZIP code">ZIP code</label> <br>
+        <input type="text" name="ZIP code" id="ZIP code" placeholder="EC2Y 8DS">
+        <br> <br>
+        <button>SEND ME FREE COFFEE</button>
+    </div>
+    <div class="d1">
+        <label for="Last name">Last name</label> <br>
+        <input type="text" name="Last name" id="Last name" placeholder="Smith">
+            <br><br>
+        <label for="Address">Address</label> <br>
+        <input type="text" name="Address" id="Address" placeholder="Silk St">
+            <br> <br>
+        <label for="State">State<span class="optional">(optional)</span></label> <br>
+        <input type="text" name="State" id="State" placeholder="">
+            <br><br>
+        <label for="Country">Country</label> <br>
+        <select name="Country" id="Country">
+            <option value="UK">United Kingdom</option>
+            <option value="P">Paris</option>
+            <option value="VN">Viet Nam</option>
+        </select>
+    </div>
+</body>
+</html>
