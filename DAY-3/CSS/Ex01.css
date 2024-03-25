@@ -1,0 +1,41 @@
+input {
+  width: 400px;
+  margin-right: 0;
+}
+th {
+  text-align: left;
+}
+textarea {
+  resize: opx;
+  width: 400px;
+  height: 80px;
+  margin-bottom: 50px;
+}
+.form-zero {
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+}
+.form-one {
+  margin: 0px;
+  margin-bottom: 185px;
+}
+.form-two {
+  margin-left: 100px;
+}
+.head-two {
+  padding-bottom: 0px;
+}
+.head-one {
+  padding-left: 5px;
+  padding-bottom: 18px;
+}
+h1 {
+  margin-left: 10px;
+}
+button {
+  background-color: rgb(49, 147, 147);
+  width: 120px;
+  height: 30px;
+  border: 0;
+  color: white;
+}
