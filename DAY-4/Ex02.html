@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form đặt bàn</title>
+    <link rel="stylesheet" href="./assets/css/Ex02.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form
+      action="https://api-gateway.fullstack.edu.vn/action_page.php"
+      method="post"
+    >
+      <section>
+        <table>
+          <tr>
+            <th>
+              <h1>RESERVATION</h1>
+            </th>
+          </tr>
+        </table>
+        <table>
+          <caption>
+            Book your table
+          </caption>
+          <tr>
+            <td><input type="text" name="name" placeholder="NAME" /></td>
+            <td><input type="email" name="email" placeholder="EMAIL" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="date" placeholder="DATE" /></td>
+            <td><input type="text" name="time" placeholder="TIME" /></td>
+          </tr>
+          <tr>
+            <td><input type="number" name="people" placeholder="PEOPLE" /></td>
+            <td><button>Find A Table</button></td>
+          </tr>
+        </table>
+      </section>
+    </form>
+  </body>
+</html>

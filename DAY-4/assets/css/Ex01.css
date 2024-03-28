@@ -1,0 +1,38 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  background-color: #334455;
+  width: 1100px;
+  border-radius: 12px;
+  padding: 12px 10px 25px 35px;
+}
+p,
+h1 {
+  color: white;
+}
+span {
+  color: #ffa500;
+}
+input:focus {
+  background-color: #ddd;
+}
+input:focus::placeholder {
+  color: #ffa500;
+}
+input {
+  height: 25px;
+  border-radius: 3px;
+  border: 0;
+  padding-left: 10px;
+}
+button {
+  height: 27px;
+  width: 170px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #f8db35;
+}
+button:hover {
+  background-color: #ffa500;
+}

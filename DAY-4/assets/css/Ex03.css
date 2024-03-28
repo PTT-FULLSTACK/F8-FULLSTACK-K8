@@ -1,0 +1,77 @@
+section {
+  width: 900px;
+  height: 600px;
+  background-color: rgba(211, 154, 154, 0);
+}
+.box a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+  float: left;
+  padding: 20px 15px;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-bottom: 0;
+}
+table {
+  padding-left: 150px;
+}
+h1 {
+  display: inline;
+  padding-left: 350px;
+  font-size: 35px;
+}
+td {
+  padding-bottom: 50px;
+}
+img {
+  width: 150px;
+  height: 200px;
+  margin-left: 25px;
+}
+.cat {
+  background-color: rgba(137, 43, 226, 0);
+  height: 400px;
+}
+
+.picture {
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+.cat1 {
+  width: 200px;
+  height: 350px;
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+  margin-left: 50px;
+  position: absolute;
+}
+.cat2 {
+  width: 200px;
+  height: 350px;
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+  margin-left: 50px;
+  left: 300px;
+  position: absolute;
+}
+.cat3 {
+  width: 200px;
+  height: 350px;
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+  margin-left: 50px;
+  left: 600px;
+}
+.buy-now {
+  text-transform: uppercase;
+  background-color: #25829e;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+img {
+  display: block;
+}
