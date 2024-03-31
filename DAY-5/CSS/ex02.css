@@ -1,0 +1,38 @@
+.button-show-1,
+.button-show-2,
+.button-show-3 {
+  background-color: #d85925;
+  margin-bottom: 5px;
+  height: 25px;
+  padding-top: 8px;
+  padding-left: 10px;
+  color: white;
+}
+
+p {
+  display: none;
+  padding-left: 15px;
+}
+.button-show-1 .hide,
+.button-show-2 .hide,
+.button-show-3 .hide {
+  display: none;
+}
+#color-1:checked ~ .color .button-show-1 .show,
+#theme-1:checked ~ .theme .button-show-2 .show,
+#icon-1:checked ~ .icon .button-show-3 .show {
+  display: none;
+}
+
+#color-1:checked ~ .color .button-show-1 .hide,
+#theme-1:checked ~ .theme .button-show-2 .hide,
+#icon-1:checked ~ .icon .button-show-3 .hide {
+  display: block;
+  transition: 1s;
+}
+
+#color-1:checked ~ .color .color-content,
+#theme-1:checked ~ .theme .theme-content,
+#icon-1:checked ~ .icon .icon-content {
+  display: block;
+}
