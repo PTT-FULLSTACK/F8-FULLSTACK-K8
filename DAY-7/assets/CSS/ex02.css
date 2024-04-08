@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  background-image: url("http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -224px;
+}
+.wrapper {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  margin: 150px 380px;
+}
+.wrapper-content {
+  background-color: #ff574d;
+  width: 280px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.wrapper-login {
+  background-color: white;
+  width: 420px;
+}
+.wrapper .wrapper-content h2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: white;
+}
+.wrapper .wrapper-content h2 span {
+  display: inline;
+  color: #ff574d;
+  background-color: white;
+  padding: 1px 7px;
+  border-radius: 5px;
+}
+
+.wrapper-login h2 .your,
+.wrapper-login h2 .account {
+  color: red;
+}
+.wrapper-login h2 .your {
+  border-bottom: 2px solid #ff574d;
+  padding-bottom: 14px;
+}
+.wrapper .wrapper-content p {
+  color: white;
+  font-size: 14px;
+}
+.wrapper .wrapper-content a {
+  display: inline-block;
+  background-color: white;
+  padding: 7px 28px;
+  margin: 25px 0;
+  text-decoration: none;
+  border-radius: 3px;
+  color: #ff574d;
+  font-size: 14px;
+}
+.wrap-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 35px;
+  width: 200px;
+}
+.wrap-icon div i {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #e25b4e;
+  border-radius: 5px;
+  color: white;
+}
+.wrap-icon div .fa-facebook-f {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.wrap-icon div .fa-google-plus-g {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.wrap-icon div .fa-linkedin-in {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.wrapper-login {
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.wrapper .wrapper-login .wrapper-input {
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper-login h2 {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.wrapper .wrapper-login .wrapper-input input {
+  width: 70%;
+  height: 35px;
+  display: block;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border: 1px solid rgb(211, 204, 204);
+  box-shadow: 1px 0px 10px -1px rgb(211, 204, 204);
+  -webkit-box-shadow: 1px 0px 10px -1px rgb(211, 204, 204);
+  -moz-box-shadow: 1px 0px 10px -1px rgb(211, 204, 204);
+  outline: #ff574d;
+  border-radius: 3px;
+}
+.wrapper .wrapper-login .wrapper-input input:hover {
+  border: 1px solid #ff574d;
+}
+
+.wrapper .wrapper-login .box {
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.wrapper .wrapper-login .box a {
+  text-decoration: none;
+}
+.wrapper .wrapper-login button {
+  display: block;
+  background-color: #ff574d;
+  border: none;
+  width: 70%;
+  padding: 10px 10px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  color: white;
+}
+.register {
+  font-size: 14px;
+}
+.register a {
+  text-decoration: none;
+}
