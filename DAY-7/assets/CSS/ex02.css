@@ -15,6 +15,7 @@ body {
   height: 400px;
   display: flex;
   margin: 150px 380px;
+  position: relative;
 }
 .wrapper-content {
   background-color: #ff574d;
@@ -147,4 +148,20 @@ body {
 }
 .register a {
   text-decoration: none;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  margin: 180px 260px;
+  box-shadow: 1px 0px 10px -1px rgb(202, 198, 198);
+  -webkit-box-shadow: 1px 0px 10px -1px rgb(194, 182, 182);
+  -moz-box-shadow: 1px 0px 10px -1px rgb(204, 191, 191);
+}
+.wrapper .arrow .fa-arrow-right {
+  margin-top: 13px;
+  margin-left: 13px;
+  color: #ff574d;
 }
