@@ -53,11 +53,11 @@ body {
   color: white;
   font-size: 14px;
 }
-.wrapper .wrapper-content a {
+.wrapper .wrapper-content > a {
   display: inline-block;
   background-color: white;
   padding: 7px 28px;
-  margin: 25px 0;
+  margin: 27px 0;
   text-decoration: none;
   border-radius: 3px;
   color: #ff574d;
@@ -66,27 +66,35 @@ body {
 .wrap-icon {
   display: flex;
   justify-content: space-around;
-  margin-left: 35px;
-  width: 200px;
+  margin-left: 55px;
+  width: 170px;
 }
-.wrap-icon div i {
+.wrapper .wrapper-content.wrap-icon .fa-brands {
   display: inline-block;
-  padding: 10px 10px;
-  background-color: #e25b4e;
-  border-radius: 5px;
+}
+.wrap-icon a .fa-facebook-f {
+  padding: 7px 11px;
+  background-color: #db5c4f;
   color: white;
+  border-radius: 5px;
 }
-.wrap-icon div .fa-facebook-f {
-  padding-left: 14px;
-  padding-right: 14px;
+.wrap-icon a .fa-twitter {
+  padding: 7px 8px;
+  background-color: #db5c4f;
+  color: white;
+  border-radius: 5px;
 }
-.wrap-icon div .fa-google-plus-g {
-  padding-left: 8px;
-  padding-right: 8px;
+.wrap-icon a .fa-google-plus-g {
+  padding: 7px 7px;
+  background-color: #db5c4f;
+  color: white;
+  border-radius: 5px;
 }
-.wrap-icon div .fa-linkedin-in {
-  padding-left: 11px;
-  padding-right: 11px;
+.wrap-icon a .fa-linkedin-in {
+  padding: 7px 10px;
+  background-color: #db5c4f;
+  color: white;
+  border-radius: 5px;
 }
 
 .wrapper-login {
