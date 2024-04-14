@@ -58,6 +58,7 @@ textarea {
   padding-top: 20px;
 }
 
+/* prepare for focus */
 .fname,
 .lname,
 .email {
@@ -99,6 +100,7 @@ textarea {
   color: grey;
 }
 
+/* focus */
 .fname:focus ~ .name span:nth-child(1),
 .lname:focus ~ .name span:nth-child(2),
 .email:focus ~ .name span:nth-child(3),

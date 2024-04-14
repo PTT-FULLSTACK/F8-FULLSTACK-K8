@@ -107,8 +107,6 @@ h2 {
   margin-top: -60px;
 }
 .wrapper-item:hover span i {
-  /* position: relative;
-  top: -70px; */
   transform: scale(0);
 }
 .wrapper-item:hover .learnmore {
