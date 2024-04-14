@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+form {
+  width: 1400px;
+  height: 650px;
+  text-align: center;
+  margin: 20px 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fill-in {
+  margin-top: 35px;
+}
+span {
+  font-size: 25px;
+  color: gray;
+}
+input,
+select,
+textarea {
+  width: 38%;
+  height: 70px;
+  margin: 15px 10px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 20px;
+  border: 1px solid rgba(182, 178, 178, 0.664);
+  box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+}
+.select-item {
+  position: relative;
+  top: -11px;
+  color: grey;
+  font-size: 25px;
+}
+button {
+  padding: 20px 40px;
+  border-radius: 99px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: #4c77d8;
+  border: none;
+}
+textarea {
+  width: 77.8%;
+  height: 220px;
+  resize: none;
+  padding-top: 20px;
+}
+
+.fname,
+.lname,
+.email {
+  padding-top: 22px;
+}
+.message {
+  padding-top: 40px;
+}
+.name span:nth-child(1) {
+  position: absolute;
+  top: 205px;
+  left: 221px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  color: grey;
+}
+.name span:nth-child(2) {
+  position: absolute;
+  top: 205px;
+  left: 778px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  color: grey;
+}
+.name span:nth-child(3) {
+  position: absolute;
+  top: 309px;
+  left: 221px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  color: grey;
+}
+.name span:nth-child(4) {
+  position: absolute;
+  top: 417px;
+  left: 221px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  color: grey;
+}
+
+.fname:focus ~ .name span:nth-child(1),
+.lname:focus ~ .name span:nth-child(2),
+.email:focus ~ .name span:nth-child(3),
+.message:focus ~ .name span:nth-child(4),
+.fname:not(:placeholder-shown) ~ .name span:nth-child(1),
+.lname:not(:placeholder-shown) ~ .name span:nth-child(2),
+.email:not(:placeholder-shown) ~ .name span:nth-child(3),
+.message:not(:placeholder-shown) ~ .name span:nth-child(4) {
+  color: black;
+  position: absolute;
+  margin-top: -15px;
+  font-size: 20px;
+}
+.message:focus ~ .name span:nth-child(4),
+.message:not(:placeholder-shown) ~ .name span:nth-child(4) {
+  color: black;
+  position: absolute;
+  margin-top: -8px;
+  font-size: 20px;
+}
