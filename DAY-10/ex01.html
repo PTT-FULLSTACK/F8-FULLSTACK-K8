@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1</title>
+    <link rel="stylesheet" href="./assets/ex01.css" />
+    <link
+      rel="stylesheet"
+      href="././fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay">
+        <div class="overlay-content">
+          <h2>#1 burger menu</h2>
+          <span>inspired by <span>google material design</span></span>
+        </div>
+      </div>
+      <input type="checkbox" id="bar" hidden />
+      <label for="bar">
+        <div class="symbol">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </label>
+      <input type="radio" id="home" name="menu" hidden />
+      <input type="radio" id="about" name="menu" hidden />
+      <input type="radio" id="portfolio" name="menu" hidden />
+      <input type="radio" id="contact" name="menu" hidden />
+      <div class="content">
+        <ul>
+          <li><label for="home" class="home">Home</label></li>
+          <li><label for="about" class="about">About</label></li>
+          <li><label for="portfolio" class="portfolio">Portfolio</label></li>
+          <li><label for="contact" class="contact">Contact</label></li>
+        </ul>
+      </div>
+      <div class="appear"></div>
+    </div>
+  </body>
+</html>

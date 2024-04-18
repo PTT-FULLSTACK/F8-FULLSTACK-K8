@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgba(134, 134, 134, 0.26);
+}
+
+/* menu */
+.container .container-item {
+  width: 604px;
+  height: 243px;
+  margin: 10px 10px;
+}
+.container .container-item .menu {
+  position: absolute;
+  width: 620px;
+  height: 50px;
+  background-color: rgba(0, 0, 255, 0);
+  text-align: center;
+  margin: 2px -6px;
+}
+label {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: white;
+  border: 5px solid rgb(255, 255, 255);
+  margin-left: -0.5%;
+}
+
+/* content */
+.content1,
+.content2,
+.content3,
+.content4 {
+  width: 602px;
+  height: 200px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin: 41px 1px;
+  border: 1px solid rgb(214, 214, 214);
+  transition: 1s;
+  transform-origin: 0 0;
+  z-index: 1;
+  transform: rotateX(-90deg);
+  visibility: hidden;
+  overflow-x: scroll;
+  opacity: 0;
+}
+h2,
+p {
+  margin: 10px 10px;
+  line-height: 1.5;
+}
+
+/* Checked */
+#item1:checked ~ .content1,
+#item2:checked ~ .content2,
+#item3:checked ~ .content3,
+#item4:checked ~ .content4 {
+  transform: rotateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+#item1:checked ~ .menu label:nth-child(1),
+#item2:checked ~ .menu label:nth-child(2),
+#item3:checked ~ .menu label:nth-child(3),
+#item4:checked ~ .menu label:nth-child(4) {
+  background-color: #4297dd;
+  color: white;
+}
