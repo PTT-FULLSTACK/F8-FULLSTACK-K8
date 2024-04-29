@@ -103,8 +103,7 @@ a {
   right: -24px;
 }
 
-/*  */
-/*  */
+/* order */
 .container .row-2 .order-content {
   width: 50%;
 }
@@ -378,6 +377,7 @@ a {
   color: #fffafa;
 }
 
+/* feat2 */
 .feat2 {
   display: flex;
   justify-content: space-between;
@@ -636,6 +636,7 @@ a {
       opacity: 1;
     }
 
+    /* feat */
     .feat1,
     .feat2 {
       display: block;
@@ -836,6 +837,7 @@ a {
       top: 695px;
     }
 
+    /* feat */
     .section4 .container4 .feat1 {
       max-width: 1200px;
       margin: 0 auto;
