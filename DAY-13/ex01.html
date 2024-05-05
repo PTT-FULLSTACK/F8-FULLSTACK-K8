@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buoi 13</title>
+    <link rel="stylesheet" href="./assets/css/ex01.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="radio"
+        id="transfer-1"
+        class="input-check-1"
+        name="check"
+        hidden
+      />
+      <input
+        type="radio"
+        id="transfer-2"
+        class="input-check-2"
+        name="check"
+        hidden
+      />
+      <div class="col">
+        <div class="landing-info">
+          <div class="logo-info">
+            <img src="./assets/image/logo.webp" alt="" />
+          </div>
+          <h2>WELCOME TO</h2>
+          <h1>VIKINGER</h1>
+          <div class="info-content">
+            <p>
+              The next generation social network & community! <br />
+              Connect with your friends and play with our quests <br />
+              and badges gamification system!
+            </p>
+          </div>
+          <div class="btn">
+            <label for="transfer-1">
+              <p class="login">Login</p>
+            </label>
+            <label for="transfer-2">
+              <p class="register">Register</p>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <form class="landing-login">
+          <div class="login-logo">
+            <img src="./assets/image/rocket.webp" alt="rocket" />
+          </div>
+          <div class="login-title">
+            <h2>Account Login</h2>
+          </div>
+          <!-- start input -->
+          <div class="login-username">
+            <input type="text" class="user" placeholder=" " />
+            <span>Username or Email</span>
+          </div>
+          <div class="login-password">
+            <input type="password" class="pass" placeholder=" " />
+            <span>Password</span>
+          </div>
+          <!-- end input -->
+          <div class="login-term">
+            <div class="term-check">
+              <input type="checkbox" id="remember" hidden />
+              <label for="remember" class="remember-me">
+                <span>Remember Me</span>
+              </label>
+            </div>
+            <!-- end remember -->
+            <div class="term-forget">
+              <a href="#!">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="login-button">
+            <button>Login to your Account!</button>
+          </div>
+          <div class="login-method">
+            <span>Login with your Social Account</span>
+          </div>
+          <div class="login-icon">
+            <a href="#!"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#!"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#!"><i class="fa-brands fa-twitch"></i></a>
+            <a href="#!"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </form>
+        <form action="#!" class="create">
+          <div class="create-logo">
+            <img src="./assets/image/rocket.webp" alt="" />
+          </div>
+          <div class="create-title">
+            <h2>Create your Account!</h2>
+          </div>
+          <div class="create-input">
+            <div class="email-cre">
+              <input type="text" id="email2" placeholder=" " />
+              <label for="email2"><span>Your Email</span></label>
+            </div>
+            <div class="username-cre">
+              <input type="text" id="username2" placeholder=" " />
+              <label for="username2"><span>Username</span></label>
+            </div>
+            <div class="password-cre">
+              <input type="password" id="password2" placeholder=" " />
+              <label for="password2"><span>Password</span></label>
+            </div>
+            <div class="password-repeat">
+              <input type="password" id="password-repeat2" placeholder=" " />
+              <label for="password-repeat2"><span>Repeat Password</span></label>
+            </div>
+            <div class="create-term">
+              <div class="create-term-check">
+                <input type="checkbox" id="send" hidden />
+                <label for="send" class="send-me">
+                  <span>Send me news and updates via email</span>
+                </label>
+              </div>
+              <div class="create-button">
+                <button>Register Now!</button>
+              </div>
+              <div class="confirm">
+                <p>
+                  You'll receive a confirmation email in your inbox with a link
+                  to activate your account. If you have any problems,
+                  <a href="#!">contact us</a>!
+                </p>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="circle"></div>
+    </div>
+  </body>
+</html>
