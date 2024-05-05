@@ -23,17 +23,14 @@ a {
   width: 100vw;
   height: 100vh;
   background-position: 0 30%;
-}
-
-/* inform */
-.container {
   display: flex;
   position: relative;
   overflow: hidden;
 }
+
+/* infor */
 .col {
   width: 50%;
-  height: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -44,10 +41,11 @@ a {
   text-align: center;
 }
 .landing-info h2 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 30px;
   font-family: var(--secondary-font-family);
   color: #fff;
+  font-weight: 500;
 }
 .landing-info h1 {
   color: white;
@@ -74,7 +72,8 @@ a {
 .btn {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .btn p {
   width: 180px;
@@ -96,7 +95,6 @@ a {
   border-bottom-right-radius: 10px;
 }
 
-/*  */
 /* login */
 .landing-login {
   position: relative;
@@ -110,6 +108,12 @@ a {
   z-index: 2;
   transition: 0.7s;
   opacity: 1;
+}
+.logo-info {
+  height: 100px;
+}
+.logo-info img {
+  height: 100%;
 }
 .landing-login .login-logo {
   position: absolute;
@@ -143,7 +147,7 @@ a {
   margin-top: 25px;
 }
 
-/* term */
+/* login-term */
 .login-term {
   display: flex;
   justify-content: space-between;
@@ -182,6 +186,7 @@ a {
   cursor: pointer;
 }
 
+/* line */
 .login-method {
   position: relative;
   font-size: 0.875rem;
@@ -209,6 +214,8 @@ a {
   top: 7px;
   right: 0;
 }
+
+/* source */
 .login-icon {
   width: 100%;
   height: 40px;
@@ -235,6 +242,7 @@ a {
   background-color: #fd434f;
 }
 
+/* circle */
 .circle {
   position: absolute;
   width: 64%;
@@ -251,24 +259,24 @@ a {
 .input-check-1:checked ~ .col .create {
   visibility: visible;
   opacity: 0;
-  transform: translateX(50%);
+  transform: translateX(90%);
   background-color: #fff;
 }
 .input-check-2:checked ~ .col .landing-login {
   visibility: visible;
   opacity: 0;
-  transform: translateX(50%);
+  transform: translateX(90%);
   background-color: #fff;
 }
 .input-check-2:checked ~ .col .landing-info .btn .register {
   color: #3e3f5e;
   background-color: #fff;
-  transition: 0.7s ease;
+  transition: 0.5s ease;
 }
 .input-check-1:checked ~ .col .landing-info .btn .login {
   color: #3e3f5e;
   background-color: #fff;
-  transition: 0.7s ease;
+  transition: 0.5s ease;
 }
 
 /* prepare for focus */
@@ -291,7 +299,6 @@ a {
   padding: 0 5px;
   transition: 0.4s;
 }
-
 .login-password input {
   padding-left: 20px;
 }
@@ -307,15 +314,16 @@ a {
   padding: 0 5px;
   transition: 0.4s;
 }
-/* focus */
-.user:focus ~ span,
-.user:not(:placeholder-shown) ~ span {
+
+/* focus for login */
+.user:focus ~ label span,
+.user:not(:placeholder-shown) ~ label span {
   position: absolute;
   top: 62px;
   font-size: 0.8rem;
 }
-.pass:focus ~ span,
-.pass:not(:placeholder-shown) ~ span {
+.pass:focus ~ label span,
+.pass:not(:placeholder-shown) ~ label span {
   position: absolute;
   top: 17px;
   font-size: 0.8rem;
@@ -361,7 +369,6 @@ a {
   background-color: #1abcff;
 }
 
-/*  */
 /* create */
 .create {
   position: absolute;
@@ -419,7 +426,7 @@ a {
   padding: 0 5px;
   transition: 0.4s;
 }
-/* focus */
+/* focus for creation*/
 #email2:focus ~ label span,
 #username2:focus ~ label span,
 #password2:focus ~ label span,
@@ -496,6 +503,7 @@ a {
   background-color: #1abcff;
 }
 
+/* button of create */
 .create-button button {
   width: 100%;
   height: 50px;
@@ -533,17 +541,22 @@ a {
     }
   }
 }
-@media screen and (max-width: 1364.98px) {
+@media screen and (max-width: 1365.98px) {
   body {
     .circle {
       display: none;
     }
     .container {
       display: block;
+      overflow: scroll;
+    }
+    .container .col:nth-of-type(2) {
+      padding-bottom: 150px;
+      margin-top: 30px;
     }
     .col {
       width: 100%;
-      height: 40%;
+      height: auto;
       align-items: normal;
       margin-top: 70px;
     }
@@ -557,12 +570,6 @@ a {
     .btn {
       margin-top: 20px;
     }
-    .landing-login {
-      margin-top: -160px;
-    }
-    .create {
-      margin-top: -160px;
-    }
   }
 }
 @media screen and (max-width: 600.98px) {
@@ -573,8 +580,23 @@ a {
       margin-right: 20px;
     }
     .create {
-      display: inline;
-      width: 520px;
+      width: 500px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+@media screen and (max-width: 500.98px) {
+  body {
+    .landing-info h1 {
+      font-size: 3.75rem;
+      margin-top: -20px;
+    }
+    .btn p {
+      width: 200px;
+    }
+    .create {
+      width: 430px;
       margin-left: 20px;
       margin-right: 20px;
     }

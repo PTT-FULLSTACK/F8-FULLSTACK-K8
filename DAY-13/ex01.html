@@ -26,6 +26,7 @@
         class="input-check-1"
         name="check"
         hidden
+        checked
       />
       <input
         type="radio"
@@ -37,7 +38,7 @@
       <div class="col">
         <div class="landing-info">
           <div class="logo-info">
-            <img src="./assets/image/logo.webp" alt="" />
+            <a href="#!"><img src="./assets/image/./logo.png" alt="" /></a>
           </div>
           <h2>WELCOME TO</h2>
           <h1>VIKINGER</h1>
@@ -58,6 +59,8 @@
           </div>
         </div>
       </div>
+      <!-- end landing-info -->
+
       <div class="col">
         <form class="landing-login">
           <div class="login-logo">
@@ -68,12 +71,18 @@
           </div>
           <!-- start input -->
           <div class="login-username">
-            <input type="text" class="user" placeholder=" " />
-            <span>Username or Email</span>
+            <input
+              type="text"
+              id="user-1"
+              class="user"
+              placeholder=" "
+              autofocus
+            />
+            <label for="user-1"><span>Username or Email</span></label>
           </div>
           <div class="login-password">
-            <input type="password" class="pass" placeholder=" " />
-            <span>Password</span>
+            <input type="password" id="pass-1" class="pass" placeholder=" " />
+            <label for="pass-1"><span>Password</span></label>
           </div>
           <!-- end input -->
           <div class="login-term">
@@ -101,6 +110,8 @@
             <a href="#!"><i class="fa-brands fa-youtube"></i></a>
           </div>
         </form>
+        <!-- end landing-login -->
+
         <form action="#!" class="create">
           <div class="create-logo">
             <img src="./assets/image/rocket.webp" alt="" />
@@ -110,7 +121,7 @@
           </div>
           <div class="create-input">
             <div class="email-cre">
-              <input type="text" id="email2" placeholder=" " />
+              <input type="email" id="email2" placeholder=" " />
               <label for="email2"><span>Your Email</span></label>
             </div>
             <div class="username-cre">
@@ -145,6 +156,7 @@
             </div>
           </div>
         </form>
+        <!-- end landing-create -->
       </div>
       <div class="circle"></div>
     </div>
