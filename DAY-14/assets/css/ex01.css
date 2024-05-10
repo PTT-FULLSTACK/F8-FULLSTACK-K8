@@ -183,7 +183,7 @@ nav {
   text-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 .book-content .btn-book {
-  /* width: 50%; */
+  width: 50%;
   height: 10rem;
   display: flex;
   justify-content: center;
