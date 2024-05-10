@@ -1,0 +1,19 @@
+.book-content h1,
+.book-content div {
+  animation-delay: 0.5s;
+}
+.video {
+  animation-delay: 0.5s;
+}
+.about-animation {
+  animation-delay: 0.3s;
+}
+.row .col-3:nth-child(5) .destination-item,
+.row .col-3:nth-child(6) .destination-item,
+.row .col-3:nth-child(7) .destination-item,
+.row .col-3:nth-child(8) .destination-item {
+  animation-delay: 0.4s;
+}
+.service-content {
+  animation-delay: 0.6s;
+}
