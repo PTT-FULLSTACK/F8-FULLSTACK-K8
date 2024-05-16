@@ -1506,6 +1506,14 @@ body {
                 }
             }
         }
+
+        // FOOTER
+        .footer {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        padding-top: 1rem;
+        }
     } 
 }
 
