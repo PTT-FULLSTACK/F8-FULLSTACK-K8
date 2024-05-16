@@ -488,6 +488,9 @@ body {
             color: variables.$secondaryColor;
         }
     }
+    .news-space-2 {
+        margin-top: 9px;
+    }
     .news-item-calender {
         color: variables.$newsDate;
         display: flex;
@@ -510,6 +513,7 @@ body {
 .news-space {
     margin-top: 80px;
 }
+
 .news-btn {
     display: flex;
     align-items: center;
