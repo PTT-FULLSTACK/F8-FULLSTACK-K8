@@ -41,8 +41,8 @@
   --column-bottom: calc(var(--spacer) * 1.5);
 }
 .row.g-5 {
-  --column-space: calc(var(--spacer) * 3);
-  --column-bottom: calc(var(--spacer) * 3);
+  --column-space: calc(var(--spacer) * 1);
+  --column-bottom: calc(var(--spacer) * 6);
 }
 
 [class^="col-"] {
