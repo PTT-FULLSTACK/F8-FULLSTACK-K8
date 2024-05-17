@@ -215,7 +215,6 @@ body {
   font-weight: 800;
   line-height: 100%;
   color: #c0e7ac;
-  padding-right: 10rem;
 }
 
 .section-2-header {
@@ -857,9 +856,10 @@ body {
   body .overlay {
     position: fixed;
     inset: 0;
-    background-color: rgba(204, 204, 204, 0.5215686275);
+    background-color: rgba(0, 0, 0, 0.253);
     opacity: 0;
     visibility: hidden;
+    z-index: 100;
   }
   body .container {
     max-width: 720px;
@@ -884,10 +884,11 @@ body {
     height: 100vh;
     max-width: 60%;
     padding-top: 5rem;
-    box-shadow: 5px 5px 20px 5px #bdbdbd;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.253);
     transform: translate(-150%);
     transition: 0.3s ease;
     overflow: scroll;
+    z-index: 101;
   }
   body .header-inner .nav ul li {
     margin: 10rem 0 0 8rem;
@@ -934,7 +935,7 @@ body {
   }
   body .hero-image .hero-word {
     top: 6rem;
-    right: -5rem;
+    right: -4rem;
   }
   body .hero-image .hero-word span {
     font-size: 15rem;
@@ -1063,7 +1064,7 @@ body {
     margin-bottom: 3rem;
   }
 }
-#check-bar:checked ~ .overlay {
+#check-bar:checked ~ .header .overlay {
   opacity: 1;
   visibility: visible;
 }

@@ -135,7 +135,6 @@ body {
     }
 
 }
-
 .hero-image {
     height: 100%;
     width: 100%;
@@ -168,7 +167,6 @@ body {
             font-weight: 800;
             line-height: 100%;
             color: variables.$greenChop;
-            padding-right:10rem;
             
         }
     }
@@ -906,9 +904,10 @@ body {
         .overlay {
             position: fixed;
             inset: 0;
-            background-color: #cccccc85;
+            background-color: rgba(0, 0, 0, 0.253);
             opacity: 0;
             visibility: hidden;
+            z-index: 100;
         }
         .container {
             max-width: 720px;
@@ -933,11 +932,13 @@ body {
                     height: 100vh;
                     max-width: 60%;
                     padding-top: 5rem;
-                    box-shadow: 5px 5px 20px 5px #bdbdbd;
+                    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.253);
                     transform: translate(-150%);
                     transition: .3s ease;
                     overflow: scroll;
-
+                    z-index: 101;
+                    
+                    
                     li {
                         margin: 10rem 0 0 8rem;
                         font-size: 2rem;
@@ -997,7 +998,7 @@ body {
 
             .hero-word {
                 top: 6rem;
-                right: -5rem;
+                right: -4rem;
                 span {
                     font-size: 15rem;
 
@@ -1165,7 +1166,7 @@ body {
     } 
 }
 
-#check-bar:checked ~ .overlay {
+#check-bar:checked ~ .header .overlay {
     opacity: 1;
     visibility: visible;
 }
